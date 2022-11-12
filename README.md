@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# API Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a first attempt to access various APIs and display the info as a smart screen dashboard.
 
-## Available Scripts
+While the students of my cohort are working on thier Unit 2 Project in React, I decided to make an app that meets the same requirements.
 
-In the project directory, you can run:
+1. A React app.
+2. Make use of a 3rd party API.
+3. Use React Router V6.
+4. Have at leats 6 components.
+5. This is a front end only app.
+6. MVP must be finished by Thursday 17 November 2022.
 
-### `npm start`
+# Wireframe:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+My [wireframe can be found on Whimsical](https://whimsical.com/api-dashboard-LBsmndmRpHgNWZUZCJ4k7C).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[![Imgur](https://i.imgur.com/tZ96Cqv.png)](https://whimsical.com/api-dashboard-LBsmndmRpHgNWZUZCJ4k7C)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Ice-Box:
+* Alerts for scheduled appointments
+* Weather app to give 'clothing suggestions'
+* Weather app to check if outdoor activities are ok
+* rotate through a series of finacials (make a ticker)
+* choose more than one news topic
+* motion background
+* make your own display option (to accept a simple API fetch endpoint)
+* maybe one day add a backend and store historic data
+* display historic data to see trends for steps/weight/financials
