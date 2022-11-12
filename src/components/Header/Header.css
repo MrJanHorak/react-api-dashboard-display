@@ -1,0 +1,23 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  justify-content: space-around;
+  color: white;
+  font-size: large;
+  font-weight: 400;
+  padding-top: 8px;
+}
+
+.time{
+  text-align: left;
+}
+
+.alert{
+  color: yellow;
+  text-align: center;
+}
+
+.date{
+  text-align: right;
+}
