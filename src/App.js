@@ -5,10 +5,10 @@ import DisplayContainer from './components/DisplayContainer/DisplayContainer';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Header />
-      <header className="App-header">
-      <DisplayContainer />
+      <header className='App-header'>
+        <DisplayContainer />
       </header>
       <Footer />
     </div>

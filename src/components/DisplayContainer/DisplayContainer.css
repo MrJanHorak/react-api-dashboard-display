@@ -1,0 +1,75 @@
+.displayContainer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: [col1-start] 20% [col2-start] auto [col3-start] auto [col4-start] 15% [end];
+  grid-template-rows: [row1-start] 15% [row2-start] 15% [rows3-start] auto [row4-start] 15% [rows5-start] 15% [end];
+}
+
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#calendar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#weather {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#financials {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#health {
+  grid-column-start: 4;
+  grid-column-end: end;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#recipe {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+}
+
+#main {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: end;
+}
+
+#news {
+  grid-column-start: 4;
+  grid-column-end: end;
+  grid-row-start: 2;
+  grid-row-end: span 3;
+}
+
+#pictures {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: end;
+}
+
+#music {
+  grid-column-start: 4;
+  grid-column-end: end;
+  grid-row-start: 5;
+  grid-row-end: end;
+}

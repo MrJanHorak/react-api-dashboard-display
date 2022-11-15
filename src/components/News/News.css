@@ -14,9 +14,9 @@
 }
 
 .newsThumb img{
-  width: 75px;
+  max-width: 80px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .newsTitle {
@@ -25,5 +25,6 @@
   font-size: 12px;
   text-align: left;
   color: black;
-  width: 140px;
+  font-weight: 600;
+  max-width: 140px;
 }
