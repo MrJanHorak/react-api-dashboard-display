@@ -1,15 +1,20 @@
 import React from 'react'
-import News from '../News/News'
 
+// componets
+import News from '../News/News'
+import Weather from '../Weather/Weather'
+
+//Styles
 import './DisplayContainer.css'
 
 function DisplayContainer() {
 
   const topic = "javascript"
+  
   return (
     <div className='displayContainer'>
       <div className="card" id='calender'>Calendar</div>
-      <div className="card" id='weather'>Weather</div>
+      <div className="card" id='weather'><Weather /></div>
       <div className="card" id='financials'>Stocks</div>
       <div className="card" id='health'>Health Stats</div>
       <div className="card" id='recipe'>recipes</div>
