@@ -8,8 +8,11 @@ import Weather from '../Weather/Weather'
 //Styles
 import './DisplayContainer.css'
 
+//assets
+import weatherData from '../../assets/sampleData/weather.js'
+
 function DisplayContainer() {
-  const [weather, setWeather] = useState({});
+  const [weather, setWeather] = useState(weatherData);
 
   const topic = "javascript"
   
@@ -19,21 +22,21 @@ function DisplayContainer() {
     url: `https://api.openweathermap.org/data/2.5/weather?lat=33.417&lon=-82.3097&appid=${process.env.REACT_APP_WEATHER_API}&units=metric`,
   };
 
-  const weatherData = () => { 
-    axios
-      .request(options)
-      .then(function (response) {
-      setWeather(response.data);
-      console.log(response.data);
-    })
-    .catch(function (error) {
-      console.error(error);
-    });
-  }
+  // const weatherData = () => { 
+  //   axios
+  //     .request(options)
+  //     .then(function (response) {
+  //     setWeather(response.data);
+  //     console.log(response.data);
+  //   })
+  //   .catch(function (error) {
+  //     console.error(error);
+  //   });
+  // }
 
   useEffect(()=>{
-    weatherData()
-   },[])
+    // weatherData()
+   },[weather])
 
   return (
     <div className='displayContainer'>

@@ -18,18 +18,14 @@ function Weather({ weather }) {
         <div>
           <p>
             <TbTemperature />
-            {/* {weather.main.temp} <RiCelsiusLine /> */}
-          </p>
-          <p>
+            {weather.main.temp} <RiCelsiusLine />
             <TbTemperature />
             <VscPerson />
-            {/* {weather.main.feels_like} <RiCelsiusLine /> */}
-          </p>
-          <p>
+            {weather.main.feels_like} <RiCelsiusLine />
             <WiHumidity />
-            {/* {weather.main.humidity} */}
+            {weather.main.humidity}
           </p>
-          {/* <p>{weather.weather[0].description}</p> */}
+          <p>{weather.weather[0].description}</p>
         </div>
         <BsSun />
       </div>
