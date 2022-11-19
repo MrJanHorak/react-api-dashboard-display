@@ -8,7 +8,7 @@ import news from '../../assets/sampleData/news.js'
 function News({ topic }) {
 
   // const [articles, setArticles] = useState(news);
-  useEffect(()=>{},[news])
+  // useEffect(()=>{},[news])
 
   // useEffect(() => {
   //   const options = {
