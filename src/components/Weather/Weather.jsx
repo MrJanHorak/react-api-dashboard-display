@@ -31,7 +31,7 @@ function Weather({ weather }) {
       </div>
     );
   } else {
-    <>Loadting</>;
+    return <>Loading</>;
   }
 }
 

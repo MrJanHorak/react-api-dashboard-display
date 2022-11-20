@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import axios from 'axios';
+// import axios from 'axios';
 
 // componets
 import News from '../News/News'
 import Weather from '../Weather/Weather'
+import Calendar from '../CalendarWidget/CalendarWidget'
 
 //Styles
 import './DisplayContainer.css'
@@ -17,10 +18,10 @@ function DisplayContainer() {
   const topic = "javascript"
   
   // setting up weather api call
-  const options = {
-    method: 'GET',
-    url: `https://api.openweathermap.org/data/2.5/weather?lat=33.417&lon=-82.3097&appid=${process.env.REACT_APP_WEATHER_API}&units=metric`,
-  };
+  // const options = {
+  //   method: 'GET',
+  //   url: `https://api.openweathermap.org/data/2.5/weather?lat=33.417&lon=-82.3097&appid=${process.env.REACT_APP_WEATHER_API}&units=metric`,
+  // };
 
   // const weatherData = () => { 
   //   axios
@@ -40,7 +41,7 @@ function DisplayContainer() {
 
   return (
     <div className='displayContainer'>
-      <div className="card" id='calender'>Calendar</div>
+      <div className="card" id='calender'><Calendar /></div>
       <div className="card" id='weather'><Weather weather={weather} /></div>
       <div className="card" id='financials'>Stocks</div>
       <div className="card" id='health'>Health Stats</div>
