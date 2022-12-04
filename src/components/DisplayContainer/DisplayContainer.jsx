@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react'
 import News from '../News/News'
 import Weather from '../Weather/Weather'
 import Calendar from '../CalendarWidget/CalendarWidget'
+import ExchangeRate from '../ExchangeRate/ExchangeRate'
 
 //Styles
 import './DisplayContainer.css'
@@ -43,7 +44,7 @@ function DisplayContainer() {
     <div className='displayContainer'>
       <div className="card" id='calender'><Calendar /></div>
       <div className="card" id='weather'><Weather weather={weather} /></div>
-      <div className="card" id='financials'>Stocks</div>
+      <div className="card" id='financials'><ExchangeRate /></div>
       <div className="card" id='health'>Health Stats</div>
       <div className="card" id='recipe'>recipes</div>
       <div className="card" id='main'>Main</div>
